@@ -1,0 +1,14 @@
+h1 {
+    color: burlywood;
+}
+p {
+    color: blueviolet;
+    background-color: aqua;
+    font-family: impact;
+    font-size: 25px;
+}
+ul {
+    font-family: 'Times New Roman';
+    color: aquamarine;
+    background-color: maroon;
+}

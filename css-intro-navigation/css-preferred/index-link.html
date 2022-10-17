@@ -4,13 +4,94 @@
         <title>Index Link</title>
         <meta charset="utf-8">
         <meta name="author" content="Matthew Whelan Keats">
+        <!--CSS Style sheet located in the css folder | my mind is melting at this point I'm too tired for this shit-->
+        <link href="../css/my-style.css" rel="stylesheet">
     </head>
     <body>
         <header>
-            <h1>The last thing you'd want on your burger king burger is someone elses foot fungus</h1>
+            <h1>The last thing you'd want on your burger king burger is someone elses foot fungus</h1><nav>
+                <ul>
+                    <li><a href="../index.html">aaaawubadugh</a></li>
+                    <li><a href="../index-inline.html">hahaha ronaldinho soccer</a></li>
+                    <li><a href="../index-embedded.html">what da dog doin?</a></li>
+                    <li><a href="#">need a dispenser here</a></li>
+                </ul>
+            </nav>
         </header>
         <main>
+            <section>
+                <h2>Create nav links in a website</h2>
+                <p>
+                    There are several techniques to navigate in a website. The semantic tag for navigation is the &lt;nav&gt; tag. You can navigate through your website by using
+                    relative addressing. For our examples, we will use the unordered list tag (&lt;ul&gt;).
+                </p>
+                <ul>
+                    <li>Page to page within the same folder</li>
+                    <li>Page to page between folders</li>
+                    <li>Staying on the current page</li>
+                    <li>Going to a specific place on the current page</li>
+                    <li>Knock knock it's knuckles</li>
+                </ul>
+                <p>
+                    Navigational menus are placed in your &lt;header&gt; semantic area. They may also be placed in your &lt;footer&gt; area as sitemap. The nav tag like other
+                    semantic tags should have an &lt;hx&gt; tag. However, this header is optional. If you omit the header tag you will recieve a document outliner error: 
+                    Untitled area. Until you are shown how to fix this fat L, it will be acceptable.
+                </p>
 
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Type</th>
+                            <th>Description</th>
+                            <th>Syntax</th>
+                            <th>Example</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Browser Defaults(No CSS)</td>
+                            <td width="480px">You have no control of styling</td>
+                            <td>N/A</td>
+                            <td>N/A</td>
+                        </tr>
+                        <tr>
+                            <td>Inline</td>
+                            <td>This is for a single specific element (tag) instance. Your css will be specified in a parameter within the element. This css affects only
+                                the element tag that contains the specification
+                            </td>
+                            <td>stlye=rule; [rule; ...]</td>
+                            <td>style="color:red; width:50px;"</td>
+                        </tr>
+                        <tr>
+                            <td>Embedded</td>
+                            <td>The specification of css as embedded happyens in your &lt;head&gt; area. This affects all similar elements on the webpage where the
+                                css is coded.
+                            </td>
+                            <td>&lt;style&gt; selector{rule; rule;}&lt;/style&gt;</td>
+                            <td>&lt;style&gt; p{color: red; width:50px}&lt;/style&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>Linked/Style-Sheet</td>
+                            <td>The preferred method of doing css. You place your css in a separate file. This file can then be used on ANY page on your site. The link to the
+                                file will be done in your head. The CSS in this file is similar to embedded except there is style tag
+                            </td>
+                            <td>selector{rule; [rule; ...rule]}</td>
+                            <td>style p{color: red; width:50px}</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h2>Sample Inline</h2>
+                <p style="background-color:limegreen; font-family:papyrus;">
+                    <span style="font-style: italic;">Lorem ipsum dolor sit amet</span> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    <span style="font-size: 50px">Ut enim ad minim veniam </span>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+                    in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+
+                </p>
+            </section>
         </main>
         <footer>
             

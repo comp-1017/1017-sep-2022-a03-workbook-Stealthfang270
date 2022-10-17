@@ -1,9 +1,25 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
-        <title>CSS Introduction</title>
+        <title>Graphic Design is My Passion</title>
         <meta charset="utf-8">
         <meta name="author" content="Matthew Whelan Keats">
+        <style>
+            h1 {
+                color: burlywood;
+            }
+            p {
+                color: blueviolet;
+                background-color: aqua;
+                font-family: impact;
+                font-size: 25px;
+            }
+            ul {
+                font-family: 'Times New Roman';
+                color: aquamarine;
+                background-color: maroon;
+            }
+        </style>
     </head>
     <body>
         <header>
@@ -35,6 +51,60 @@
                     Navigational menus are placed in your &lt;header&gt; semantic area. They may also be placed in your &lt;footer&gt; area as sitemap. The nav tag like other
                     semantic tags should have an &lt;hx&gt; tag. However, this header is optional. If you omit the header tag you will recieve a document outliner error: 
                     Untitled area. Until you are shown how to fix this fat L, it will be acceptable.
+                </p>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Type</th>
+                            <th>Description</th>
+                            <th>Syntax</th>
+                            <th>Example</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Browser Defaults(No CSS)</td>
+                            <td width="480px">You have no control of styling</td>
+                            <td>N/A</td>
+                            <td>N/A</td>
+                        </tr>
+                        <tr>
+                            <td>Inline</td>
+                            <td>This is for a single specific element (tag) instance. Your css will be specified in a parameter within the element. This css affects only
+                                the element tag that contains the specification
+                            </td>
+                            <td>stlye=rule; [rule; ...]</td>
+                            <td>style="color:red; width:50px;"</td>
+                        </tr>
+                        <tr>
+                            <td>Embedded</td>
+                            <td>The specification of css as embedded happyens in your &lt;head&gt; area. This affects all similar elements on the webpage where the
+                                css is coded.
+                            </td>
+                            <td>&lt;style&gt; selector{rule; rule;}&lt;/style&gt;</td>
+                            <td>&lt;style&gt; p{color: red; width:50px}&lt;/style&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>Linked/Style-Sheet</td>
+                            <td>The preferred method of doing css. You place your css in a separate file. This file can then be used on ANY page on your site. The link to the
+                                file will be done in your head. The CSS in this file is similar to embedded except there is style tag
+                            </td>
+                            <td>selector{rule; [rule; ...rule]}</td>
+                            <td>style p{color: red; width:50px}</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h2>Sample Inline</h2>
+                <p style="background-color:limegreen; font-family:papyrus;">
+                    <span style="font-style: italic;">Lorem ipsum dolor sit amet</span> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    <span style="font-size: 50px">Ut enim ad minim veniam </span>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+                    in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+
                 </p>
             </section>
         </main>
