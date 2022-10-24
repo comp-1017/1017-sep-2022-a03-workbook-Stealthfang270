@@ -1,0 +1,74 @@
+/*
+
+Margin: The outer part of the box. Represents this separation between boxes. Horizontal margins are added. 
+Vertical margins are collapsed. If both margins are positive, the larger one is used.
+Negative margins subtract from positive margins.
+
+Styles to code a margin in:
+Long hand: margin-top: size; margin-right: size; margin-bottom: size; margin-left: size; 
+Opposite sides: margin: tb-size rightleft-size
+Short hand unequal: margin: top-size right-size bottom-size left-size
+Short hand: margin size;
+
+*/
+
+.margin-section{
+    margin: 24px 12px;
+}
+
+/*
+
+border: the second part of the box
+represents the displayable border
+
+bordering can be done in various styles
+long hand: border-width: size; border-style: style; border-color: hex-value;
+short-hand: border: size style color;
+
+border width is made up of border-top border-right border-bottom and border-left
+
+*/
+
+.border-section{
+    border-width: 12px;
+    border-style: outset;
+    border-color: palevioletred;
+    background-color: lightpink;
+    padding: 10px;
+    width: 365px;
+    margin: 100px;
+}
+
+/*
+
+Padding represents separation between border and content.
+Uses the same functions as Margin
+
+*/
+
+.padding-section{
+    padding: 24px;
+}
+
+/*
+
+Content: the display area of your element content. The size of the content area is dependant on whether there are margin, border, and/or padding specified for the element.
+You can specify a width for your content, however, the width plus your other measurements SHOULD NOT exceed the width of your page. (If the page width is set)
+
+calculation page-width = lm + lb + lp + content + rp + rb + rm
+
+Assume a fixed center page width of 960
+
+samples 960 = 0 + 0 + 0 + content + 0 + 0 + 0
+        960 = content + 0
+        960 - 0 = content
+        content = 960
+
+        1332 = 0 + 0 + 0 + content + 0 + 0 + 0
+        1332 - 0 = content
+        content = 1332
+*/
+
+.width-section{
+    width: 500px;
+}
