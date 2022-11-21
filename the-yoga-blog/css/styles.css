@@ -1,0 +1,59 @@
+body {
+	background-color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+ 
+.container {
+	margin: 0 auto;
+	width: 960px;
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+.page-header{
+	background: url(../img/header-background.png) repeat-x;
+}
+
+.hidden{
+	display: none;
+}
+
+h1, h2, h3{
+	color: #0b777b;
+	text-align: center;
+}
+
+.post{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70px;
+}
+
+span{
+	margin: 10px 0 0 0;
+}
+
+.contact{
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+
+h2{
+	font-size: 38px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+h3{
+	font-size: 28px;
+	font-weight: bold;
+	margin-top: 100px;
+}
+
+strong{
+	font-weight: bold;
+}
