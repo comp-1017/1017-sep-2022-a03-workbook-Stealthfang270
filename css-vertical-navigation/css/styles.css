@@ -1,0 +1,51 @@
+body {
+	background-color: white;
+	font-family: 'Alegreya', serif;
+}
+ 
+.container {
+	margin:0 auto;
+	width:960px;
+	font-size: 100%;
+	line-height: 1.5;
+	
+}
+
+header{
+	background-color: #fff;
+}
+
+img{
+	padding: 15px;
+	
+}
+
+.top{
+	border-bottom: 2px solid #959372;
+}
+
+h1 {
+	display: none;
+	
+}
+
+h2{
+	font-style: italic;
+	color: #f9ea4f;
+	font-size: 36px;
+	margin-left: 680px;
+	padding-top: 60px;
+}
+
+ul{
+	color: white;
+	margin-left: 680px;
+}
+
+.banner{
+	background-image: url(../img/flower-banner.jpg), url(../img/pattern-bg.gif);
+	height: 739px;
+	background-repeat: no-repeat, repeat;
+	background-position: left 60px, left top;
+	padding-top:60px;
+}
