@@ -1,0 +1,93 @@
+body {
+	background-color: white;
+	color: white;
+}
+ 
+.container {
+	margin:0 auto;
+	width:960px;
+	font-size:100%;
+    line-height: 1.5;
+	font-family: 'Raleway', sans-serif;
+}
+
+/*font-family: 'Alegreya', serif;
+font-family: 'Raleway', sans-serif;*/
+
+header{
+	background-color: #028568;
+	display: flex;
+}
+
+.logo{
+	margin: 10px;
+}
+
+h2{
+	font-family: 'Alegreya', serif;
+	font-size: 36px;
+}
+
+p, a{
+	font-size: 18px;
+	text-decoration: none;
+	color: white;
+}
+ul{
+	display: flex;
+	margin-left: 210px;
+}
+
+li{
+	margin-right: 30px;
+	line-height: 75px;
+}
+
+.banner{
+	background-image: url(../img/island-bg.jpg);
+	height: 362px;
+	display:flex;
+}
+
+.left-column{
+	text-align: center;
+	margin-top: 95px;
+}
+
+.left-column h2 {
+	padding-bottom: 30px;
+	
+}
+
+.left-column p {
+	width:414px;
+	margin-left: 82px;
+	margin-right: 82px;
+	padding-top: 30px;
+	border-top: solid #abddd5 7px;
+}
+
+.right-column{
+	background-color: rgba(171, 221, 213, .8);
+	width: 382px;
+}
+
+.right-column h2{
+	width:201px;
+	margin-top: 95px;
+	margin-left: 78px;
+	margin-bottom: 32px;
+	line-height: 44px;
+}
+
+.right-column a {
+	margin-left: 78px;
+	color: #028568;
+	padding: 8px 30px 8px 30px;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.visuallyhidden {
+	display: none;
+}
